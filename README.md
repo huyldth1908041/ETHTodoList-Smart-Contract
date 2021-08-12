@@ -4,21 +4,21 @@ It's just a demo solidity smart contract project
 
 # Install
 
-Install truffle
+- Install truffle
 
 `npm install -g truffle`
 
-Install dependencies 
+- Install dependencies 
 
 `yarn`
 
-Add .env file whith content of .env.example
+- Add `.env` file whith content of `.env.example`
 
-#Compile contract
+# Compile contract
 
 `truffle complie`
 
-#Deploy contract to ganache (local network)
+# Deploy contract to ganache (local network)
 
 `truffle migrate`
 

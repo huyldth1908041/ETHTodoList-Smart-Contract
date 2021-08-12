@@ -22,6 +22,6 @@ It's just a demo solidity smart contract project
 
 `truffle migrate`
 
-#Deploy contract to rinkeby (public network)
+# Deploy contract to rinkeby (public network)
 
 `truffle migrate --network rinkeby`

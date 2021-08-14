@@ -20,6 +20,12 @@ uint public taskCount = 0;
         bool completed
     );
 
+    event TaskUpdated (
+        uint id,
+        string content,
+        bool completed
+    );
+
     constructor() public {
         createTask("This a placeholder task");
     }
@@ -38,5 +44,17 @@ uint public taskCount = 0;
         tasks[_id] = _task;
         emit TaskCompleted(_id, _task.completed);
 
+    }
+
+    function deleteTask(uint _id) public {
+        delete tasks[_id];
+        taskCount--;
+    }
+
+    function updateTask(uint _id, string memory _newContent) public{
+        Task memory _task = tasks[_id];
+        _task.content = _newContent;
+        tasks[_id] = _task;
+        emit TaskUpdated(_id, _newContent, tasks[_id].completed);
     }
 }

@@ -1,4 +1,4 @@
-# ETHTodoList Smart Contract
+# ETH Todo List Smart Contract
 
 It's just a demo solidity smart contract project using truffle framework and infura
 

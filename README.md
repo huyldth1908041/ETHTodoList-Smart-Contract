@@ -14,7 +14,7 @@ Deloyed contract address on rinkeby network:  [`0xc0DA9e53613AE51877EED3eaE14099
 
 `yarn`
 
-- Add `.env` file whith content of `.env.example`
+- Add `.env` file with content of `.env.example`
 
 # Compile contract
 

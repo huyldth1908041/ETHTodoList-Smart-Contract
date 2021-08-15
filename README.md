@@ -2,7 +2,7 @@
 
 It's just a demo solidity smart contract project using truffle framework and infura
 
-Deloyed contract address on rinkeby network:  [`0xc0DA9e53613AE51877EED3eaE14099E81006Bcfa`](https://rinkeby.etherscan.io/address/0xc0DA9e53613AE51877EED3eaE14099E81006Bcfa)
+Deloyed contract address on rinkeby network:  [`0x6D45C16c688C2C0B6Bc534424fa6446d233E7dc6`](https://rinkeby.etherscan.io/address/0x6d45c16c688c2c0b6bc534424fa6446d233e7dc6)
 
 # Install
 

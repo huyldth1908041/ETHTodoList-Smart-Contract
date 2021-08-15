@@ -26,6 +26,10 @@ uint public taskCount = 0;
         bool completed
     );
 
+    event TaskDeleted (
+        uint taskCount
+    );
+
     constructor() public {
         createTask("This a placeholder task");
     }
@@ -49,6 +53,7 @@ uint public taskCount = 0;
     function deleteTask(uint _id) public {
         delete tasks[_id];
         taskCount--;
+        emit TaskDeleted(taskCount);
     }
 
     function updateTask(uint _id, string memory _newContent) public{
